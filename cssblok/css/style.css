@@ -1,0 +1,33 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+p {
+  padding: 10px;
+  border: 2px dashed blue;
+  background-color: aquamarine;
+}
+a {
+  padding: 10px;
+  border: 2px solid brown;
+  background-color: violet;
+}
+ul {
+  background-color: rgb(251, 237, 135);
+}
+input {
+  background-color: rgb(133, 223, 133);
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
