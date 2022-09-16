@@ -1,0 +1,51 @@
+nav {
+background-color: blue;
+    width: 100%;
+    height: 50px;
+}
+ul a {
+    text-decoration: none;
+    float: left;
+    color: white;
+    background-color: #333;
+    padding: 10px;
+}
+ul li {
+    list-style-type: none;
+}
+ul{
+    padding: 0;
+    margin: 5px 0 10px 30%;
+}
+header {
+    background-image: url("../img/beach.jpg");
+    background-size: cover;
+    min-height: 300px;
+    position: relative;
+}
+header h1 {
+    text-align: center;
+    color: beige;
+    position: absolute;
+    top: 100px;
+    left: 40%;
+}
+.nav-main {
+position: relative;
+z-index: 1;
+}
+nav.nav-sticky {
+    position: sticky;
+    top: 0;
+    padding-left: 30%;
+}
+article {
+    line-height: 1.5em;
+    margin: auto;
+    max-width: 50rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+article h1 {
+    padding-top: 75px;
+}
