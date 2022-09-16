@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body {
+    background-color: darkgray;
+}
+p {
+    padding-top: 100px;
+    font-size: 1.5em;
+    color: aquamarine;
+    text-shadow: 0px 3px rgb(223, 237, 32);
+}
+label {
+    color: white;
+    font-size: 1.3em;
+}
+#registracija {
+    margin-left: 33vw;
+    margin-top: 50px;
+    background-image: linear-gradient(darkblue, rgb(207, 14, 14), rgb(10, 86, 10));
+    width: 33vw;
+    height: 900px;
+    border: 15px solid rgb(243, 241, 241);
+    border-radius: 20px 200px;
+}
+input[type=text], button{
+    width: 60%;
+    height: 50px;
+    border: 5px solid rgb(39, 226, 25);
+    border-radius: 15px;
+}
+button {
+    background-image: linear-gradient(to right, darkblue, rgb(207, 14, 14), rgb(10, 86, 10));
+    color: wheat;
+    
+}
