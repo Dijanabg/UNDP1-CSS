@@ -1,0 +1,125 @@
+/******************************************
+/* CSS
+/*******************************************/
+/* Obeležavanje određenog teksta na stranici */
+.highlite {
+  background-color: aqua;
+  color: blue;
+}
+/* Podešavanje bullets u okviru liste */
+ul {
+  list-style: square;
+  /* Ubacivanje sličice kao bullet-a */
+  list-style-image: url(bullet.gif);
+}
+/* Slika kao pozadina */
+body { 
+  font: 0.9em Verdana, Geneva, Arial, Helvetica, sans-serif; 
+  background-color: #d2d7e4; 
+  color: #000000; 
+  background-image: url(../img/beach.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat; 
+  }
+  /* Navigacija
+Lista kao meni
+ */
+ #navigation { 
+  width: 200px; 
+  } 
+  #navigation ul { 
+  list-style: none; 
+  margin: 0; 
+  padding: 0; 
+  } 
+  #navigation li { 
+  border-bottom: 1px solid #ED9F9F; 
+  } 
+  #navigation li a:link, #navigation li a:visited { 
+  font-size: 90%; 
+  display: block; 
+  padding: 0.4em 0 0.4em 0.5em; 
+  border-left: 12px solid #711515; 
+  border-right: 1px solid #711515; 
+  background-color: #B51032; 
+  color: #FFFFFF; 
+  text-decoration: none; 
+  }
+  
+  /* Rollover efekat */
+  
+  #navigation li a:hover { background-color: #f43e3e;
+  color: #FFFFFF;
+  }
+  /*
+  Horizontalni meni */
+  #navigation2 { 
+    font-size: 90%; 
+    } 
+    #navigation2 ul { 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    padding-top: 1em; 
+    } 
+    #navigation2 li { 
+    display: inline; 
+    } 
+    #navigation2 a:link, #navigation a:visited { 
+    padding: 0.4em 1em 0.4em 1em; 
+    color: #FFFFFF; 
+    background-color: #B51032; 
+    text-decoration: none; 
+    border: 1px solid #711515; 
+    } 
+    #navigation2 a:hover { 
+    color: #FFFFFF; 
+    background-color: #711515; 
+    }
+    /* Formatiranje tabele  */
+      table { 
+      border: 1px solid #D6DDE6; 
+      border-collapse: collapse;
+      } 
+      table td, table th { 
+      border: 1px solid #D6DDE6; 
+      text-align: right; 
+      padding: 0.2em; 
+      } 
+      table th { 
+      border: 1px solid #828282; 
+      background-color: #BCBCBC; 
+      font-weight: bold; 
+      text-align: left; 
+      padding: 0.2em; 
+      } 
+      table td {
+        background-color: rgba(250, 235, 215, 0.592);
+      }
+      table caption {
+      font: bold 120% "Times New Roman", Times, serif; 
+      background-color: #B0C4DE; 
+      color: #33517A;
+      padding: 0.4em 0 0.3em 0; 
+      border: 1px solid #789AC6;
+      }
+      
+      /* Hover efekat: */
+      table tr:hover { background-color: #DFE7F2; color: #000000; }
+      /* Formatiranje forme */
+      form { 
+        border: 1px dotted #aaaaaa; 
+        padding: 3px 6px 3px 6px; 
+        } 
+        input.txt { 
+        color: #00008B; 
+        background-color: #ADD8E6; 
+        border: 1px inset #00008B; 
+        width: 200px; 
+        } 
+        input.btn { color: #00008B; 
+        background-color: #ADD8E6; 
+        border: 1px outset #00008B; 
+        padding: 2px 4px 2px 4px; 
+        }
+        
