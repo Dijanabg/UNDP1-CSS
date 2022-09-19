@@ -1,0 +1,19 @@
+h1 {
+  color: rgb(0, 121, 227);
+}
+
+.naslov.istoNaslov {
+  color: rgb(227, 223, 0);
+}
+
+.naslov {
+  color: rgb(0, 227, 79);
+}
+
+#naslovID {
+  color: rgb(98, 0, 227);
+}
+
+.menu-item:first-child {
+  font-weight: bold;
+}

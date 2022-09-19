@@ -1,0 +1,43 @@
+.menu-item:nth-child(2) {
+  font-weight: bold;
+}
+
+.sviProizvodi {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 300px 300px 300px;
+  margin: 2em;
+  gap: 5%;
+  justify-content: space-around;
+}
+
+.sviProizvodi .proizvod:nth-child(odd) {
+  background-color: rgb(193, 255, 255);
+}
+
+.sviProizvodi .proizvod:nth-child(even) {
+  background-color: rgb(245, 255, 179);
+}
+
+.proizvod {
+  text-align: center;
+  padding: 1em;
+}
+
+@media (max-width: 1200px) and (min-width: 751px) and (orientation: landscape) {
+  .sviProizvodi {
+    grid-template-columns: auto auto;
+    grid-template-rows: 300px 300px 300px 300px 300px;
+  }
+}
+
+@media (max-width: 750px) {
+  .sviProizvodi {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(9, 300px);
+    gap: 3%;
+  }
+  .velikiParagraf {
+    display: none;
+  }
+}
