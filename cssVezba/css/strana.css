@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(82, 80, 80);
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    padding-bottom: 30vh;
+}
+header {
+    position: sticky;
+    top: 0;
+    width: auto;
+    height: 50px;
+    margin-top: 200px;
+    background-color: rgb(32, 11, 52);
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+section{
+    background-color: rgb(252, 232, 84);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section>div {
+    width: 50%;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: rgb(32, 11, 52);
+    padding: 50px 0;
+    border: 5px dotted rgb(199, 166, 166);
+    border-radius: 30px;
+    color: white;
+}
+#forma {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+ .podnaslov {
+    text-align: center;
+}
+#forma ,.podnaslov{
+    align-self: center;
+}
+
+#tipovi {
+    margin-top: 10px;
+}
+#prviDeo{
+    order: 1;
+}
+#drugiDeo{
+    order: 3;
+}
+#treciDeo {
+    order: 2;
+}
+.podnaslov{
+    padding: 20px;
+}
+.podnaslov:hover{
+    color: yellow;
+}
+table {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+table, td {
+    border: 1px double white;
+}
+#forma p{
+    text-transform: uppercase;
+    margin: 2% 5%;
+}
+input[type=text]{
+    margin: 10px;
+}
+form{
+    margin: 0 50px;
+    display: block;text-align: left;
+}
+input[type=submit], input[type=reset] {
+    background-color: rgb(122, 5, 5);
+    color: white;
+    padding: 2% 5%;
+}
+form select{
+    margin-bottom: 10%;
+}
+#komentar {
+    margin-top: 50px;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lizalice</title>
+    <link rel="stylesheet" href="css/strana.css">
+</head>
+<body>
+    <header>
+        <h1 id="naslov">Lizalice</h1>
+    </header>
+
+    <section id="prviDeo">
+        <div id="tipovi">
+            <h2 class="podnaslov">Tipovi lizalica i ukusi</h2>
+            <ul>
+                <li><strong>Slatke lizalice</strong></li>
+                <ul>
+                    <li>Jagoda</li>
+                    <li>Kola</li>
+                    <li>Visnja</li>
+                </ul>
+                <br>
+                <li><strong>Kisele lizalice</strong></li>
+                <ul>
+                    <li>Jabuka</li>
+                    <li>Kola</li>
+                    <li>Limun</li>
+                </ul>
+                <br>
+                <li><strong>Cokoladne lizalice</strong></li>
+                <ul>
+                    <li>Mlecna cokolada</li>
+                    <li>Bela cokolada</li>
+                    <li>Crna cokolada</li>
+                </ul>
+            </ul>
+        </div>
+    </section>
+
+    <section id="drugiDeo">
+        <div id="forma">
+            <h2 class="podnaslov">Ocenite lizalice</h2>
+            <p><i>Vase misljenje nam znaci</i></p>
+            <form>
+                <label for="imePrezime">Ime i prezime:</label>
+                <input type="text" id="imePrezime">
+                <br>
+                <label for="tipLizalice">Tip lizalice:</label>
+                <select id="tipLizalice">
+                    <option value="default" selected="selected" disabled>Izaberite tip lizalice</option>
+                    <optgroup label="Slatke lizalice">
+                        <option value="jagoda">Jagoda</option>
+                        <option value="kola1">Kola</option>
+                        <option value="visnja">Visnja</option>
+                    </optgroup>
+                    <optgroup label="Kisele lizalice">
+                        <option value="jabuka">Jabuka</option>
+                        <option value="kola2">Kola</option>
+                        <option value="limun">Limun</option>
+                    </optgroup><optgroup label="Cokoladne lizalice">
+                        <option value="mlecna">Mlecna cokolada</option>
+                        <option value="bela">Bela cokolada</option>
+                        <option value="crna">Crna cokolada</option>
+                    </optgroup>
+                </select>
+                <br>
+                <label for="ocena">Ocena:</label>
+                <br>
+                <input id="jedan" type="radio" name="ocena" value="jedan"/> 
+                <label for="jedan">1</label>
+                <br/>
+                <input id="dva" type="radio" name="ocena" value="dva"/> 
+                <label for="dva">2</label>
+                <br/>
+                <input id="tri" type="radio" name="ocena" value="tri"/> 
+                <label for="tri">3</label>
+                <br/>
+                <input id="cetiri" type="radio" name="ocena" value="cetiri"/> 
+                <label for="cetiri">4</label>
+                <br/>
+                <input id="pet" type="radio" name="ocena" value="pet"/> 
+                <label for="pet">5</label>
+                <br>
+                <label for="komentar">Komentar:</label>
+                <textarea name="komentar" id="komentar" cols="30" rows="1"></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Posalji">
+                <input type="reset" value="Obrisi">
+            </form>
+        </div>
+    </section>
+
+    <section id="treciDeo">
+        <div id="tabela">
+            <h2 class="podnaslov">Galerija</h2>
+            <table>
+                <tr>
+                    <td>Slatke</td>
+                    <td>Kisele</td>
+                    <td>Cokoladne</td>
+                </tr>
+                <tr>
+                   <td><img src="./img/slika01.jpg" alt="Slatke lizalice" height="75px" width="100px"></td>
+                   <td><img src="./img/slika02.jpg" alt="Kisele lizalice" height="75px" width="100px"></td>
+                   <td><img src="./img/slika03.jpg" alt="Cokoladne lizalice" height="75px" width="100px"></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+</body>
+</html>
